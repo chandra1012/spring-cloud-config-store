@@ -1,8 +1,1 @@
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/chandra1012/spring-cloud-config-store
-          search-paths:
-           - '*service'
+
