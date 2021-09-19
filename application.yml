@@ -1,2 +1,12 @@
-vehicle.default.model = 2021
-member.rent.min = 30000
+spring:
+  datasource:
+    url: jdbc:h2:mem:rentDB
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+	  enabled: true
+	  path: /console
